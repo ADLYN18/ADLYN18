@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        *{
+           box-sizing: content-box;
+           margin: 0;
+        }
+        
+         .menu ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color: rgb(205, 149, 109);
+       }
+       .menu li {
+           float: left;
+       }
+       .menu a {
+           text-decoration: none;
+           display: block;
+           color: rgb(241, 239, 234);
+           padding: 20px;
+       }
+       .menu {
+            width: 100%;
+            margin-top: 10px;
+            float: left;
+            margin: auto;
+            border: solid rgb(60,66,63);
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 5px;
+            margin: auto;
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+            .kaki {
+           text-align: center;
+           border: solid rgb(60,66,63);
+           background-color: rgb(205,149,109);
+           padding: 10px;
+           margin: top 20px;
+       }
+       table, th, td {
+        border: 1px solid rgb(21, 21, 21);
+        border-collapse: collapse;
+
+        th, td {
+            background-color: rgb(205, 149, 109);}
+        
+
+    </style>
+    <title>
+        BORANG PENDAFTARAN
+    </title>
+    <body>
+        <!-- HEADER -->
+        <div class="header">
+            <div class="header_banner"><img src="florist.co.png"></div>
+           
+            <div class="menu">
+            <ul>
+                <li>
+                    <a href="utama.html">UTAMA</a>
+                </li>
+                <li>
+                    <a href="contohbunga.html">CONTOH BUNGA</a>
+                </li>
+        </div><br>
+        <br>
+
+        <!-- Borang -->
+         <center>
+        <form>
+            <table>
+                <tr>
+             <td>
+            Name :
+        </td>
+        <td>
+            <input type="text" id="Name" name="Name">
+             </td>
+              </tr>
+             <tr>
+             <td>
+            Alamat :
+         </td>
+         <td>
+            <input type="text" id="Alamat" name="Alamat">
+            </td>
+             </tr>                
+            <tr>
+            <td>
+            Tarikh pesanan : 
+        </td>
+        <td>
+            <input type="date" id="birthday" name="birthday">
+            </td>
+             </tr>
+            <tr>
+            <td>
+            Jenis Bunga :
+        </td>
+        <td>
+            <select name="Pilih Jenis Bunga">
+             <option value="Pilih">Pilih</option>
+                <option value="bunga_mawar">bunga_mawar</option>
+                <option value="bunga_daisy">bunga_daisy</option>
+                <option value="bunga_matahari">bunga_matahari</option>
+                <option value="lain-lain">lain-lain</option>
+            </select>
+            </td>
+             </tr>
+             <tr>
+                <td>
+            Hiasan Yang Ingin Ditambah :
+        </td>
+        <td>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            </td>
+             </tr>
+            </table>
+            <br>
+            <input type="submit" value="HANTAR">
+            <input type="reset" value="SEMULA">
+        </form>
+ </center>
+<br>
+        <!-- FOOTER -->
+        <div class="kaki">
+            <font>Copyright &copy:FLORIST.CO</font>
+        </div>
+
+    </body>
+</head>
+</html>
